@@ -1,0 +1,293 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:0;
+}
+
+body{
+    font-family: "Fraunces",sans-serif;
+}
+
+.font-barlow{
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+}
+
+.flex{
+    display:flex;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.bg-no-repeat{
+    background-repeat: no-repeat !important;
+}
+
+.bg-position-center{
+    background-position: center !important;
+}
+
+.bg-size-cover{
+    background-size: cover !important;
+}
+
+.h-50{
+    height: 50vh !important;
+}
+
+
+.nav{
+    background-color: rgb(62, 190, 255);
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.btn-menu{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.menu{
+    display: none;
+}
+
+.text-xl{
+    font-size: 38px !important;
+}
+
+main{
+    background: url(../assets/mobile/image-header.jpg);
+    height: 70vh;
+}
+
+h1{
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+    padding-top: 35px;
+}
+
+.arrow-down{
+    display: block;
+    margin: auto;
+    height: 160px;
+    margin-top: 35px;
+}
+
+.bg-egg{
+    background: url(../assets/mobile/image-transform.jpg);
+}
+
+.container-egg{
+    flex-direction: column;
+    justify-content: center;
+    padding: 16px;
+}
+
+.container-egg > div > h2{
+    margin-bottom: 15px;
+}
+.container-egg > div > p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: hsl(232, 10%, 55%);
+}
+
+.link{
+    text-transform: uppercase;
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+
+.bg-cup{
+    background: url(../assets/mobile/image-stand-out.jpg);
+}
+
+.bg-cherry{
+    background: url(../assets/mobile/image-graphic-design.jpg);
+    height: 80vh;
+    align-items: end;
+}
+
+.bg-cherry > div{
+    margin-bottom: 80px;
+    color: hsl(167, 40%, 24%);
+}
+
+.bg-cherry > div >h2{
+    margin-bottom: 20px;
+}
+
+.bg-orange{
+    background: url(../assets/mobile/image-photography.jpg);
+    height: 80vh;
+    align-items: end;
+}
+
+.bg-orange > div{
+    margin-bottom: 80px;
+    color: hsl(198, 62%, 26%);
+}
+
+.bg-orange > div >h2{
+    margin-bottom: 20px;
+}
+
+.section-testimonials{
+    margin-top: 60px;
+    background-color: #fffbf8;
+}
+
+.section-testimonials > h2{
+    font-size: 26px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: hsl(232, 10%, 55%);
+}
+
+.container-testimonials{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container-testimonials > div > img{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-top: 30px;
+}
+
+.text-testimonial{
+    font-size: 18px;
+    width: 80%;
+    margin: auto;
+}
+
+.text-name-testimonial{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.container-testimonials > div > p{
+    margin-top: 20px;
+    color: hsl(232, 10%, 55%);
+}
+
+/*ms*/
+@media (min-width:640px) {
+    
+}
+
+/*md*/
+@media (min-width:768px) {
+    
+}
+
+/*lg*/
+@media (min-width:1024px) {
+    
+}
+
+/*xl*/
+@media (min-width:1280px) {
+    main{
+        background: url(../assets/desktop/image-header.jpg);
+    }   
+
+    .btn-menu{
+        display: none;
+    }
+
+    .menu{
+        display: flex;
+        gap: 25px;
+        list-style: none;
+        font-family: "Barlow", sans-serif;
+    }
+
+    .menu > li > a{
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .menu >li:last-child{
+        background-color: #fff;
+        padding: 10px 20px;
+        border-radius: 24px;
+    }
+    .menu >li:last-child > a{
+        color: #000;
+        font-family: "Fraunces";
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 12px;
+    }
+    .flex-reverse{
+        flex-direction:row-reverse;
+    }
+
+    .section-egg{
+        display: flex;
+        height: 70vh;
+    }
+    .bg-egg{
+        flex: 1;
+        background: url(../assets/desktop/image-transform.jpg);
+        height: 100% !important;
+    }
+    .container-egg{
+        flex: 1;
+        height: 100% !important;
+        padding: 0;
+    }
+    .container-egg > div{
+        display: block;
+        margin: auto;
+        width: 80%;
+
+    }
+    .container-egg > div > *{
+        text-align: left;
+    }
+
+    .bg-cup{
+        flex: 1;
+        background: url(../assets/desktop/image-stand-out.jpg);
+        height: 100% !important;
+    }
+
+    .container-fruit{
+        display: flex;
+    }
+
+    .container-fruit > section > div{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bg-cherry{
+        flex: 1;
+        background: url(../assets/desktop/image-graphic-design.jpg);
+    }
+
+    .bg-orange{
+        flex: 1;
+        background: url(../assets/desktop/image-photography.jpg);
+    }
+}
+
+/*2xl*/
+@media (min-width:1536px) {
+    
+}
+

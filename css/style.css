@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: helvetica, sans-serif;
+    background-color: #090e16;
+    color: #fff;
+}
+nav{
+    display: flex;
+    /*space-between: separa elementos de extremo a extremo*/
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(123, 74, 226, 0.05);
+    /* margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 80px;
+    margin-right: 80px;*/
+    margin: 30px 80px;
+    padding: 15px;
+    border-radius: 16px;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+    /*gap: espacio entre cada elemento del contenedor*/
+    gap: 20px;
+}
+.nav-list > li > a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav-list > li > a:hover{
+    color: rgba(123, 74, 226, 0.5);
+}
+main{
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 80px;
+}
+.gretting{
+    background-color: rgba(123, 74, 226, 0.05);
+    color: rgba(123, 74, 226, 0.5);
+    padding: 8px;
+    border-radius: 16px;
+}
+
+.title{
+    font-size: 52px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.social-links{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.container-profile > img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+.container-contact{
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+    align-items: end;
+}
+
+.container-contact > a{
+    text-decoration: none;
+    color: rgba(123, 74, 226, 0.5);
+}
+.container-contact > a:first-child{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.container-contact > a:last-child{
+    border: rgba(123, 74, 226, 0.5) solid;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+    border-radius: 16px;
+}
+.container-about-me{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 80px;
+}
+.container-about-me > div > img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+  
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.container-about-me >div >h2{
+    font-size: 48px;
+
+}
