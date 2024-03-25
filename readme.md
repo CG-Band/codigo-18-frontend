@@ -1,33 +1,33 @@
-#comando de git
+# Comando de GIT
 
-## comando para iniciar git en una carpeta
+## Comando para iniciar git en un carpeta
 
-'''bash
-
+```bash
 git init
-'''
+```
 
-##comando para ver el estado de mis archivos 
+## Comando para ver el estado de mis archivos
 
-'''bash
-
+```bash
 git status
-'''
+```
 
-##comando para agregar mis archivos al stage de git
+## Comando para agregar mis archivos al stage de git
 
-'''bash
-git add
-'''
+```bash
+git add .
+```
 
-##para crear una version junto aun comentario 
+## Comando para crear una version de nuestro codigo junto a un comentario
 
-algunos prefijos 
+alguno prefijos
 
-feat:feature(crear algo nuevo)
-fix:(reparar algo)
-chore:(cosas repetitivas)
-styles:(modifico la apariencia de la web)
+1. feat: feature (una nueva funcionalidad)
+2. fix: (reparar algo)
+3. chore: (cosas repetitivas)
+4. styles: (modifico la apariencia de la web)
 
-'''bash
-git commit -m "feat:se creo el reto1 para el portafolio"
+```bash
+git commit -m "feat: se creo el reto1 para el portafolio"
+```
+## "Hola mundo"
